@@ -11,7 +11,10 @@
 </p>
 <p>
     <em>USAGE:</em>
+</p>
+<p>
     1.Input a name and click search.
+</p>
     2.If the animal you write down exists, you can click back, or you can upload picture and <em>fulfill</em> animal name and definition, then click button. 
 </p>
 <p>
