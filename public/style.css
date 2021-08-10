@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: cornflowerblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+label {
+    font-size: 2em;
+}
+
+button {
+    position: fixed;
+    left: 50vw;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#addData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

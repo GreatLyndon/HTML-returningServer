@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to Animal Database</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="word.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <img src={{picture}}>
+            <div>
+                <h1>{{animal}}</h1>
+                <p>{{definition}}</p>
+            </div>
+        </div>
+        <button>Back</button>
+        <div id="addData" class="hidden">
+            <h1>Not found? Add it into our database!</h1>
+            <form enctype="multipart/form-data">
+                <label>Picture:</label>
+                <input type="file" accept=".jpg" value="choose"><br><br>
+                <label>Animal:</label>
+                <input type="text" maxlength="20"><br><br>
+                <label>Definition:</label>
+                <textarea id="newDef" cols="20" rows="4" style="resize: none;"></textarea><br><br>
+                <input type="submit">
+            </form>
+        </div>
+        <h1 class="hidden">Added!</h1>
+    </body>
+</html>
